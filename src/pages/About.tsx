@@ -1,4 +1,5 @@
 import React from "react";
+import "../pages/Styles.css";
 
 const About: React.FC = () => {
   return (
