@@ -1,19 +1,30 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../pages/Styles.css";
 
 const Header: React.FC = () => {
   return (
-    <header style={{ padding: "10px", background: "#282c34", color: "white" }}>
-      <nav>
-        <Link to="/" style={{ margin: "10px", color: "white", textDecoration: "none" }}>Home</Link>
-        <Link to="/about" style={{ margin: "10px", color: "white", textDecoration: "none" }}>About</Link>
-        <Link to="/projects" style={{ margin: "10px", color: "white", textDecoration: "none" }}>Projects</Link>
-        <Link to="/contact" style={{ margin: "10px", color: "white", textDecoration: "none" }}>Contact</Link>
+    <header className="header">
+      <nav className="nav">
+        <Link to="/" className="nav-link">
+          Home
+        </Link>
+        <Link to="/about" className="nav-link">
+          About
+        </Link>
+        <Link to="/projects" className="nav-link">
+          Projects
+        </Link>
+        <Link to="/contact" className="nav-link">
+          Contact
+        </Link>
       </nav>
     </header>
   );
 };
 
 export default Header;
+
+
 
 

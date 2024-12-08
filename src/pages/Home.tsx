@@ -1,12 +1,21 @@
 import React from "react";
+import "../pages/Styles.css";
+import image from '../assets/images/stavova_web1.jpg';
 
-const Home: React.FC = () => {
+const Homepage: React.FC = () => {
   return (
-    <div>
-      <h1>Welcome to My Portfolio</h1>
-      <p>This is a React + TypeScript portfolio project.</p>
+    <div className="homepage-container">
+      <div className="homepage-text">
+        <h1>Vítejte na mém webu!</h1>
+        <p>Jmenuju se Barbora a nabízím 2D a 3D grafiky na zakázku.</p>
+      </div>
+      <div className="homepage-image">
+        <img src={image} alt="Ukázka grafiky" />
+      </div>
     </div>
   );
 };
 
-export default Home;
+export default Homepage;
+
+

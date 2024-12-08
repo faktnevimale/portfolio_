@@ -1,0 +1,197 @@
+.contact-form {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+
+  .contact-form h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #2563eb;
+    outline: none;
+    box-shadow: 0px 0px 4px #93c5fd;
+  }
+  
+  
+  .contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+ 
+  .contact-form button:hover {
+    background-color: #1d4ed8;
+  }
+  
+ 
+  .contact-form p {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 16px;
+  }
+
+  .header {
+    background-color: black; 
+    color: white; 
+    height: 4vh;
+    padding: 20px; 
+  }
+  
+  .nav {
+    display: flex; 
+    justify-content: flex-end; 
+    padding-right: 20px; 
+  }
+  
+  .nav-link {
+    margin: 0 1rem; 
+    text-decoration: none; 
+    color: inherit; 
+  }
+  
+  .nav-link:hover {
+    color: lightblue; 
+    text-decoration: underline; 
+  }
+
+  .footer {
+    text-align: center; 
+    padding: 5px; 
+    height: 6vh;
+    background: #000000; 
+    color: white; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+  
+.homepage-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 70vh; 
+  box-sizing: border-box;
+}
+
+.homepage-text {
+  text-align: left; 
+}
+
+
+
+.homepage-text h1 {
+  font-size: 2.5rem; 
+  margin-bottom: 10px; 
+}
+
+.homepage-text p {
+  font-size: 1.2rem; 
+  line-height: 1.6; 
+}
+
+.homepage-image {
+  flex: 1; 
+  display: grid;
+  height: 64vh;
+  justify-content: center; 
+  align-items: center;
+}
+
+.homepage-image img {
+  max-width: 110%; 
+  height: 500px; 
+  display: grid; 
+}
+
+
+.project-card {
+
+  width: 250px; /* Zmenšená maximální šířka karty */
+ 
+  height: 430px;
+
+  margin: 25px; /* Menší mezery kolem karet */
+
+  border: 1px solid #ccc; /* Rám */
+
+  border-radius: 8px; /* Zaoblené rohy */
+
+  overflow: hidden; /* Skrytí obsahu přesahující kartu */
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Stín */
+
+  transition: transform 0.3s; /* Efekt při hover */
+
+}
+
+.project-card:hover {
+
+  transform: scale(1.03); /* Mírné zvětšení karty při najetí */
+
+}
+
+.project-card img {
+
+  width: 100%; /* Obrázek se přizpůsobí šířce karty */
+
+  height: 330px; /* Stanovení maximální výšky obrázku */
+
+  object-fit: cover; /* Udržení proporcí bez deformace */
+
+}
+
+.project-card h3 {
+
+  font-size: 1.2rem; /* Zmenšení velikosti názvu projektu */
+
+  margin: 15px 0; /* Mezery okolo názvu */
+
+}
+
+.project-card p {
+
+  font-size: 0.9rem; /* Zmenšení velikosti popisu projektu */
+
+  padding: 0 10px; /* Vnitřní okraje */
+
+}
+  
+
+  
+  
+  
+  
+  
