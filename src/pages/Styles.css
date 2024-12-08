@@ -139,54 +139,38 @@
 
 .project-card {
 
-  width: 250px; /* Zmenšená maximální šířka karty */
- 
+  width: 250px; 
   height: 430px;
-
-  margin: 25px; /* Menší mezery kolem karet */
-
-  border: 1px solid #ccc; /* Rám */
-
-  border-radius: 8px; /* Zaoblené rohy */
-
-  overflow: hidden; /* Skrytí obsahu přesahující kartu */
-
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Stín */
-
-  transition: transform 0.3s; /* Efekt při hover */
-
+  margin: 25px;
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  overflow: hidden; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s; 
 }
 
 .project-card:hover {
 
-  transform: scale(1.03); /* Mírné zvětšení karty při najetí */
-
-}
+  transform: scale(1.03); 
+  }
 
 .project-card img {
 
-  width: 100%; /* Obrázek se přizpůsobí šířce karty */
-
-  height: 330px; /* Stanovení maximální výšky obrázku */
-
-  object-fit: cover; /* Udržení proporcí bez deformace */
-
+  width: 100%;
+  height: 330px; 
+  object-fit: cover; 
 }
 
 .project-card h3 {
 
-  font-size: 1.2rem; /* Zmenšení velikosti názvu projektu */
-
-  margin: 15px 0; /* Mezery okolo názvu */
-
+  font-size: 1.2rem; 
+  margin: 15px 0; 
 }
 
 .project-card p {
 
-  font-size: 0.9rem; /* Zmenšení velikosti popisu projektu */
-
-  padding: 0 10px; /* Vnitřní okraje */
-
+  font-size: 0.9rem; 
+  padding: 0 10px; 
 }
   
 
