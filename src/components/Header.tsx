@@ -13,7 +13,7 @@ const Header: React.FC = () => {
           O mně
         </Link>
         <Link to="/projects" className="nav-link">
-          Mé práce
+          Mé projekty
         </Link>
         <Link to="/contact" className="nav-link">
           Kontakt
