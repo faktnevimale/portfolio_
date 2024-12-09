@@ -7,16 +7,16 @@ const Header: React.FC = () => {
     <header className="header">
       <nav className="nav">
         <Link to="/" className="nav-link">
-          Home
+          Úvod
         </Link>
         <Link to="/about" className="nav-link">
-          About
+          O mně
         </Link>
         <Link to="/projects" className="nav-link">
-          Projects
+          Mé práce
         </Link>
         <Link to="/contact" className="nav-link">
-          Contact
+          Kontakt
         </Link>
       </nav>
     </header>
